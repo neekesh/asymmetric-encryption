@@ -1,0 +1,25 @@
+# Assymettric Encryption
+ - key used to encrypt and decrypt are different
+ - on key to encrypt and other to decrypt the messages
+
+Some algorithm are listed here.
+ - Signal protocol:
+    * used by whatsapp, facebook messenger, signal
+    * double ratchet algorithm and forward secrecy
+        - DOuble ratchet:
+            ensures that each message is encrypted with a unique key, which is generated for each message and used only once
+        - Forward Secrecy:
+            f an attacker gains access to a user's private key, they cannot use it to decrypt past messages that were exchanged using a different key. Instead, each message is encrypted with a new key, which is derived from both the sender and receiver's previous keys.
+    * public key cryptography :
+         ensure that only the intended recipient can read the messages. Each user has a public key and a private key, and messages are encrypted using the recipient's public key. The recipient can then decrypt the message using their private key.
+    *  high level of security and privacy for messaging applications
+
+- Off the record(OTR):
+    * used in  AIM, Google Talk, and Jabber.
+    * popular encryption protocol for individuals and organizations who require strong security and privacy for their messaging communications.
+    * uses a combination of symmetric and asymmetric encryption to ensure that only the intended recipients can read the messages
+    * end to end encryption
+    * One of the key features of OTR is its deniability. This means that even if a third party gains access to the encrypted messages, they cannot prove that the sender actually sent the message. This is because the protocol allows users to generate fake keys, which can be used to encrypt messages that appear to be from the sender, but can be easily disavowed by the sender if necessary.
+
+    * OTR also provides perfect forward secrecy, which means that each message is encrypted using a unique key that is generated for that message. This ensures that even if an attacker gains access to one key, they cannot use it to decrypt past or future messages.
+
