@@ -1,2 +1,2 @@
-*Assymetric Encryption
+* Assymetric Encryption
 This repo is to give you information about the different types of assymertic Encryption in shortest way possible.
