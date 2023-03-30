@@ -1,4 +1,4 @@
-# Assymettric Encryption
+*Assymettric Encryption
  - key used to encrypt and decrypt are different
  - on key to encrypt and other to decrypt the messages
 
